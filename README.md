@@ -77,74 +77,65 @@ In the same way create a linux virtual machine and call it "VM2" with the same u
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="711" alt="Screenshot 2024-07-26 at 2 15 47 PM" src="https://github.com/user-attachments/assets/4d7f80f7-daf7-4a5b-8632-e3c64d54844f">
 </p>
 <h3>
 
 *Use Remote Desktop to connect to your Windows 10 Virtual Machine*
 </h3>
 <p>
-substitution text
+Find the public IP address found in Azure portal and use it to log in using "Microsoft Remote Desktop" with mac or "Remote Desktop" in windows. Use the user you created earlier.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-26 at 2 28 03 PM" src="https://github.com/user-attachments/assets/48a08a07-be73-4101-a640-c9a38ac24413">
 </p>
 <h3>
 
 *Install Wireshark*
 </h3>
 <p>
-substitution text
+In the web browser, search for wireshark and click "Download" and download "Windows x64".
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-26 at 2 39 07 PM" src="https://github.com/user-attachments/assets/e45840d4-1f58-40ee-a92c-512b36db430c">
 </p>
 <h3>
 
 *Open Wireshark and filter for ICMP traffic*
 </h3>
 <p>
-substitution text
+Open the installer file and click through to install wireshark. After installing, open wireshark and click the fin to start analizing. Then go to the search bar and type "icmp" to filter for that kind of traffic.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-26 at 2 45 00 PM" src="https://github.com/user-attachments/assets/9982c2cd-605e-4b56-a00e-f790e89238bd">
+<img width="1470" alt="Screenshot 2024-07-26 at 2 45 28 PM" src="https://github.com/user-attachments/assets/9c436052-8a1a-48cc-a993-64dd65a897c4">
 </p>
 <h3>
 
 *Ping Ubuntu VM from Windows VM*
 </h3>
 <p>
-substitution text
+
+From the Azure portal, find the privite IP, take note of this IP. Press the windows key + R to open the run commmand (Command+R in mac) and type "cmd" to open the commmand line. When the window opens, type ``` ping -t 10.0.0.5 ``` (My ip in the azure portal was 10.0.0.5) and hit enter. When that happens you should see the command line fill up and in wireshark stuff is going to start filling up.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-26 at 2 56 03 PM" src="https://github.com/user-attachments/assets/7614e56a-a3ab-4a7c-b06f-ab2f0f5cb2a3">
 </p>
 <h3>
 
 *Ping a Public Website*
 </h3>
 <p>
-substitution text
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<h3>
-
-*Initiate a perpetual ping to the Ubuntu VM*
-</h3>
-<p>
-substitution text
+When you're done pinging the linux computer, "press control+c" to end the ping. Then in the command line type ``` ping -t google.com ``` to start pinging google and look at the traffic in wireshark.
 </p>
 <br />
 
@@ -155,26 +146,28 @@ substitution text
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-26 at 3 00 53 PM" src="https://github.com/user-attachments/assets/033a7e68-460d-4557-86a9-4cd0e6ae2304">
 </p>
 <h3>
 
 *Filter for SSH traffic*
 </h3>
 <p>
-substitution text
+In the search bar in wireshark, type ssh to filter for ssh traffic.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-26 at 3 06 00 PM" src="https://github.com/user-attachments/assets/19eaadab-945b-4dbc-80c6-e4a4060e7c46">
+<img width="1470" alt="Screenshot 2024-07-26 at 3 11 59 PM" src="https://github.com/user-attachments/assets/454c5537-1df8-4ed6-bf0f-b79290349510">
 </p>
 <h3>
 
 *SSH into your Ubuntu VM*
 </h3>
 <p>
-substitution text
+  
+In the terminal type ``` ssh 10.0.0.5 ```, when prompted type the password you set up when creating the VM and you should see wireshark populate with the ssh traffic. 
 </p>
 <br />
 
@@ -185,26 +178,27 @@ substitution text
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-26 at 3 13 53 PM" src="https://github.com/user-attachments/assets/4716cf31-0749-475a-94f0-c347fe1ab7e5">
 </p>
 <h3>
 
 *Filter for DHCP traffic*
 </h3>
 <p>
-substitution text
+In the search bar in wireshark, type dhcp to filter for dhcp traffic.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-26 at 3 16 10 PM" src="https://github.com/user-attachments/assets/2656cf80-b2cb-498f-a5d6-cab6e1919ac7">
 </p>
 <h3>
 
 *Issue your VM a new IP address from the command line*
 </h3>
 <p>
-substitution text
+  
+In the command line type ``` ipconfig /renew ``` and press enter. You should see wireshark populate with traffic after.
 </p>
 <br />
 
@@ -215,26 +209,27 @@ substitution text
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-26 at 3 19 14 PM" src="https://github.com/user-attachments/assets/9767cb61-b326-4e38-b27c-abd8a54f0528">
 </p>
 <h3>
 
 *Filter for DNS traffic*
 </h3>
 <p>
-substitution text
+In the search bar in wireshark, type dns to filter for dns traffic. If theres traffic, you can click the green fin to reset the analysis.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-26 at 3 22 24 PM" src="https://github.com/user-attachments/assets/e0375f14-cfbd-465e-b4eb-fe3010466d38">
 </p>
 <h3>
 
 *Use nslookup*
 </h3>
 <p>
-substitution text
+  
+In the command line, type ``` nslookup google.com ``` or ```nslookup disney.com``` to simulate DNS traffic and see wireshark fill up.
 </p>
 <br />
 
@@ -267,6 +262,8 @@ substitution text
 substitution text
 </p>
 <br />
+
+
 
 
 
