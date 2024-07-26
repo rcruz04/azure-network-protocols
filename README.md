@@ -275,8 +275,10 @@ Notice that the traffic is non-stop? This is because while seeing the screen, yo
   This is optional but for the lab its best to delete the resources to save money for the free credits.
 </p>
 
-<h3>This concludes the making of the network protocols lab for Azure, to look at the other projects i've done you can look at my [home page](https://github.com/rcruz04/rcruz04).
-</h3>
+<br />
+<h2>
+This concludes the making of the network protocols lab for Azure, to look at the other projects i've done you can look at my [home page](https://github.com/rcruz04/rcruz04).
+</h2>
 
 end
 
