@@ -42,7 +42,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </h3>
 <p>
   
-If you haven't already, set up your azure account to get some free credits. Then go to [portal.azure.com/](https://portal.azure.com/) and go to the search bar and search "resource group" and click on the cube with the brackets. Click create and name the reasource group "network_lab" and finish making the reasource group.
+If you haven't already, set up your azure account to get some free credits. Then go to [portal.azure.com/](https://portal.azure.com/) and go to the search bar and search "resource group" and click on the cube with the brackets. Click create and name the resource group "network_lab" and finish making the resource group.
 </p>
 <br />
 
@@ -54,7 +54,7 @@ If you haven't already, set up your azure account to get some free credits. Then
 *Create a Windows 10 Virtual Machine*
 </h3>
 <p>
-Go to the same search bar and search "virtual machine" and click on the computer. After name the VM "VM1" with the username "labuser" and a password you can remember. After youre finished it should look something like the picture and click create to start the deplyment process.
+Go to the same search bar and search "virtual machine" and click on the computer. After name the VM ``VM1" with the username "labuser" and a password you can remember. After you're finished it should look something like the picture and click create to start the deployment process.
 </p>
 <br />
 
@@ -66,7 +66,7 @@ Go to the same search bar and search "virtual machine" and click on the computer
 *Create a Linux Virtual Machine*
 </h3>
 <p>
-In the same way create a linux virtual machine and call it "VM2" with the same username and password (this is not best practice but for the lab its fine). <ins>Make sure to select the same VNET under the network tab</ins> it wont work if you don't.
+In the same way create a linux virtual machine and call it "VM2" with the same username and password (this is not best practice but for the lab it's fine). <ins>Make sure to select the same VNET under the network tab</ins> it won't work if you don't.
 </p>
 <br />
 
@@ -108,7 +108,7 @@ In the web browser, search for wireshark and click "Download" and download "Wind
 *Open Wireshark and filter for ICMP traffic*
 </h3>
 <p>
-Open the installer file and click through to install wireshark. After installing, open wireshark and click the fin to start analizing. Then go to the search bar and type "icmp" to filter for that kind of traffic.
+Open the installer file and click through to install wireshark. After installing, open wireshark and click the fin to start analyzing. Then go to the search bar and type "icmp" to filter for that kind of traffic.
 </p>
 <br />
 
@@ -122,7 +122,7 @@ Open the installer file and click through to install wireshark. After installing
 </h3>
 <p>
 
-From the Azure portal, find the privite IP, take note of this IP. Press the windows key + R to open the run commmand (Command+R in mac) and type "cmd" to open the commmand line. When the window opens, type ``` ping -t 10.0.0.5 ``` (My ip in the azure portal was 10.0.0.5) and hit enter. When that happens you should see the command line fill up and in wireshark stuff is going to start filling up.
+From the Azure portal, find the private IP, take note of this IP. Press the windows key + R to open the run command (Command+R in mac) and type "cmd" to open the command line. When the window opens, type ``` ping -t 10.0.0.5 ``` (My ip in the azure portal was 10.0.0.5) and hit enter. When that happens you should see the command line fill up and in wireshark stuff is going to start filling up.
 </p>
 <br />
 
@@ -216,7 +216,7 @@ In the command line type ``` ipconfig /renew ``` and press enter. You should see
 *Filter for DNS traffic*
 </h3>
 <p>
-In the search bar in wireshark, type dns to filter for dns traffic. If theres traffic, you can click the green fin to reset the analysis.
+In the search bar in wireshark, type dns to filter for dns traffic. If there's traffic, you can click the green fin to reset the analysis.
 </p>
 <br />
 
@@ -240,36 +240,45 @@ In the command line, type ``` nslookup google.com ``` or ```nslookup disney.com`
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-26 at 3 30 09 PM" src="https://github.com/user-attachments/assets/258f64cb-2517-42ab-bbe9-ec4c1c29bb20">
 </p>
 <h3>
 
 *Filter for RDP traffic*
 </h3>
 <p>
-substitution text
+  
+In the search bar type ``` tcp.port == 3389 ``` (this is the same as typing rdp in the search bar).
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <h3>
 
 *Observe Traffic*
 </h3>
 <p>
-substitution text
+Notice that the traffic is non-stop? This is because while seeing the screen, you're transmitting information from the VM to your computer.
 </p>
 <br />
 
 
 
+<h2>Optional step: Delete Resources</h2>
 
 
 
+<p>
+<img width="1470" alt="Screenshot 2024-07-26 at 3 36 48 PM" src="https://github.com/user-attachments/assets/f2b3df4c-de96-4ce2-8d36-4b71c1259190">
+<img width="1470" alt="Screenshot 2024-07-26 at 3 37 05 PM" src="https://github.com/user-attachments/assets/8b83ac40-2d12-4d8d-9c63-32a31e4b04af">
+</p>
+<p>
+  This is optional but for the lab its best to delete the resources to save money for the free credits.
+</p>
 
+<h3>This concludes the making of the network protocols lab for Azure, to look at the other projects i've done you can look at my [home page](https://github.com/rcruz04/rcruz04).
+</h3>
 
+end
 
 
 
