@@ -94,7 +94,7 @@ substitution text
 </p>
 <h3>
 
-*Observe Your Virtual Network within Network Watcher*
+*Use Remote Desktop to connect to your Windows 10 Virtual Machine*
 </h3>
 <p>
 substitution text
@@ -106,7 +106,7 @@ substitution text
 </p>
 <h3>
 
-*Observe Your Virtual Network within Network Watcher*
+*Install Wireshark*
 </h3>
 <p>
 substitution text
@@ -118,7 +118,7 @@ substitution text
 </p>
 <h3>
 
-*Observe Your Virtual Network within Network Watcher*
+*Open Wireshark and filter for ICMP traffic*
 </h3>
 <p>
 substitution text
@@ -130,7 +130,7 @@ substitution text
 </p>
 <h3>
 
-*Observe Your Virtual Network within Network Watcher*
+*Ping Ubuntu VM from Windows VM*
 </h3>
 <p>
 substitution text
@@ -142,7 +142,7 @@ substitution text
 </p>
 <h3>
 
-*Observe Your Virtual Network within Network Watcher*
+*Ping a Public Website*
 </h3>
 <p>
 substitution text
@@ -154,7 +154,7 @@ substitution text
 </p>
 <h3>
 
-*Observe Your Virtual Network within Network Watcher*
+*Initiate a perpetual ping to the Ubuntu VM*
 </h3>
 <p>
 substitution text
@@ -170,6 +170,10 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*Filter for SSH traffic*
+</h3>
 <p>
 substitution text
 </p>
@@ -178,6 +182,10 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*SSH into your Ubuntu VM*
+</h3>
 <p>
 substitution text
 </p>
@@ -192,6 +200,10 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*Filter for DHCP traffic*
+</h3>
 <p>
 substitution text
 </p>
@@ -200,6 +212,10 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*Issue your VM a new IP address from the command line*
+</h3>
 <p>
 substitution text
 </p>
@@ -214,6 +230,10 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*Filter for DNS traffic*
+</h3>
 <p>
 substitution text
 </p>
@@ -222,6 +242,10 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*Use nslookup*
+</h3>
 <p>
 substitution text
 </p>
@@ -236,6 +260,10 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*Filter for RDP traffic*
+</h3>
 <p>
 substitution text
 </p>
@@ -244,6 +272,10 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*Observe Traffic*
+</h3>
 <p>
 substitution text
 </p>
