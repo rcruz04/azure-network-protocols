@@ -36,6 +36,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<h3>
+  
+*Create a Resource Group* 
+</h3>
+
 <p>
 substitution text
 </p>
@@ -44,6 +50,10 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*Create a Windows 10 Virtual Machine*
+</h3>
 <p>
 substitution text
 </p>
@@ -52,6 +62,22 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*Create a Linux Virtual Machine*
+</h3>
+<p>
+substitution text
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<h3>
+
+*Observe Your Virtual Network within Network Watcher*
+</h3>
 <p>
 substitution text
 </p>
@@ -66,6 +92,10 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*Observe Your Virtual Network within Network Watcher*
+</h3>
 <p>
 substitution text
 </p>
@@ -74,6 +104,10 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*Observe Your Virtual Network within Network Watcher*
+</h3>
 <p>
 substitution text
 </p>
@@ -82,6 +116,46 @@ substitution text
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<h3>
+
+*Observe Your Virtual Network within Network Watcher*
+</h3>
+<p>
+substitution text
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<h3>
+
+*Observe Your Virtual Network within Network Watcher*
+</h3>
+<p>
+substitution text
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<h3>
+
+*Observe Your Virtual Network within Network Watcher*
+</h3>
+<p>
+substitution text
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<h3>
+
+*Observe Your Virtual Network within Network Watcher*
+</h3>
 <p>
 substitution text
 </p>
@@ -92,14 +166,6 @@ substitution text
 <h2 id="step3">3. Observe SSH Traffic</h2>
 
 
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-substitution text
-</p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -139,27 +205,11 @@ substitution text
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-substitution text
-</p>
-<br />
-
 
 
 <h2 id="step5">5. Observe DNS Traffic</h2>
 
 
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-substitution text
-</p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -199,13 +249,6 @@ substitution text
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-substitution text
-</p>
-<br />
 
 
 
