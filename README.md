@@ -34,40 +34,39 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-25 at 10 04 26 PM" src="https://github.com/user-attachments/assets/2bbb34d6-aa59-4072-a4e2-5233c7fcab0b">
 </p>
-
 <h3>
-  
+
 *Create a Resource Group* 
 </h3>
-
 <p>
-substitution text
+  
+If you haven't already, set up your azure account to get some free credits. Then go to [portal.azure.com/](https://portal.azure.com/) and go to the search bar and search "resource group" and click on the cube with the brackets. Click create and name the reasource group "network_lab" and finish making the reasource group.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-25 at 10 13 23 PM" src="https://github.com/user-attachments/assets/31ff57d1-a47e-43e3-a25c-fc4bb5ffefe1">
 </p>
 <h3>
 
 *Create a Windows 10 Virtual Machine*
 </h3>
 <p>
-substitution text
+Go to the same search bar and search "virtual machine" and click on the computer. After name the VM "VM1" with the username "labuser" and a password you can remember. After youre finished it should look something like the picture and click create to start the deplyment process.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1470" alt="Screenshot 2024-07-25 at 10 21 52 PM" src="https://github.com/user-attachments/assets/1ba8a8e9-49a1-4376-b603-57b30dc9b662">
 </p>
 <h3>
 
 *Create a Linux Virtual Machine*
 </h3>
 <p>
-substitution text
+In the same way create a linux virtual machine and call it "VM2" with the same username and password (this is not best practice but for the lab its fine). <ins>Make sure to select the same VNET under the network tab</ins> it wont work if you don't.
 </p>
 <br />
 
