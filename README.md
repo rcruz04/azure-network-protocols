@@ -70,18 +70,6 @@ In the same way create a linux virtual machine and call it "VM2" with the same u
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<h3>
-
-*Observe Your Virtual Network within Network Watcher*
-</h3>
-<p>
-substitution text
-</p>
-<br />
-
 
 
 <h2 id="step2">2. Observe ICMP Traffic</h2>
